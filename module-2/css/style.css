@@ -65,7 +65,7 @@ p.blurb {
 @media (min-width: 992px) {
     .character-lg-4 {
         float: left;
-        width: 33.33%;  
+        width: 33.333%;  
     }
 }
 /*** tablet view ***/
