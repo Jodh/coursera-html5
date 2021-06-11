@@ -12,13 +12,35 @@
     text-align: center;
 }
 
-h2.name {
+h2.name-paladin {
     margin-top: 0;
     position: absolute;
     right: 0;
     top: 0;
     border: 1px black solid;
     background-color: gold;
+    padding: 5px;
+}
+
+h2.name-rogue {
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px black;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+h2.name-bard {
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px black solid;
+    background-color: plum;
+    color:rgb(7, 126, 43);
     padding: 5px;
 }
 
