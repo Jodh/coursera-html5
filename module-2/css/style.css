@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+.campaign{
+    width: 100%;
+}
+
+.title {
+    color:cadetblue;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h2.name {
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px black solid;
+    background-color: gold;
+    padding: 5px;
+}
+
+section.description {
+    /* margin-top:45px;
+    margin-left: 10px;
+    margin-bottom:10px; */
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: grey;
+    border: 1px gold solid; 
+}
+
+p.blurb {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 10px;
+}
+/*** responsive formatting ***/
+/*** desktop view ***/
+@media (min-width: 992px) {
+    .character-lg-4 {
+        float: left;
+        width: 33.33%;  
+    }
+}
+/*** tablet view ***/
+@media (min-width: 768px) and (max-width: 991px) {
+    .character-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .character-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+/*** mobile view ***/
+@media (max-width: 767px) {
+    .character-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
